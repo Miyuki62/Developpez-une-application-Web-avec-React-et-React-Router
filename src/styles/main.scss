@@ -1,8 +1,13 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"); //font-awesome
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap"); //font Monserrat
 
 @import "./utils/variables";
 @import "./utils/mixin";
 @import "./composants/navbar";
+@import "./composants/card";
+@import "./composants/backgroundimg";
 @import "./composants/navigation";
 @import "./composants/logo";
 @import "./composants/footer";
+@import "./layout/content";
+@import "./layout/error404";

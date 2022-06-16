@@ -1,17 +1,19 @@
 .navigation {
-	li {
-		list-style-type: none;
-	}
-	ul {
+	div {
 		display: flex;
-		margin: 30px;
+		margin: 10px;
 
 		a {
 			text-decoration: none;
 			padding: 10px;
 
-			li {
-				color: $color-nav;
+			.linktext {
+				color: $color-primary;
+				font-family: "Montserrat";
+				font-style: normal;
+				font-weight: 500;
+				font-size: 24px;
+				line-height: 142.6%;
 				transition: 0.2s;
 				cursor: pointer;
 
@@ -28,7 +30,7 @@
 				content: "";
 				height: 4px;
 				width: 0;
-				background: $color-nav;
+				background: $color-primary;
 				position: absolute;
 				border-radius: 10px;
 				bottom: 0px;

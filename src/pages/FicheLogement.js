@@ -8,7 +8,10 @@ const FicheLogement = () => {
 			<header>
 				<Header />
 			</header>
-			<h1>Fiche logement</h1>
+			<div className="content">
+				<h1>Fiche logement</h1>
+			</div>
+
 			<footer>
 				<Footer />
 			</footer>

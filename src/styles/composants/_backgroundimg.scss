@@ -1,0 +1,23 @@
+.backgroundHomeimg {
+	display: flex;
+	justify-content: center;
+	max-width: 1240px;
+	width: 100%;
+}
+.backgroundHomeimg > h1 {
+	position: absolute;
+	top: 150px;
+	text-align: center;
+	color: white;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 142.6%;
+}
+.backgroundHomeimg > img {
+	border-radius: 25px;
+	filter: brightness(70%);
+	max-width: 1240px;
+	width: 100%;
+}
