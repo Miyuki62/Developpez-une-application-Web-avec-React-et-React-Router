@@ -10,7 +10,7 @@ const Approute = () => {
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<Home />} />
-				<Route path="/fiche-logement" element={<FicheLogement />} />
+				<Route path="/fichelogement/:annonceid" element={<FicheLogement />} />
 				<Route path="/about" element={<About />} />
 				{/* path="*" fonctionne si l'url n'est pas bonne */}
 				<Route path="*" element={<Error404 />} />

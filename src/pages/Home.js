@@ -1,16 +1,16 @@
 import React from "react";
-import BackgroundHomeimg from "../components/BackgroundHomeimg";
-import Card from "../components/Card";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import BackgroundHomeimg from "../components/home/BackgroundHomeimg";
+import Card from "../components/home/Card";
+import Footer from "../components/footer/Footer";
+import Header from "../components/header/Header";
 
 const Home = () => {
 	return (
 		<div>
-			<header>
-				<Header />
-			</header>
 			<div className="content">
+				<header>
+					<Header />
+				</header>
 				<BackgroundHomeimg />
 				<Card />
 			</div>

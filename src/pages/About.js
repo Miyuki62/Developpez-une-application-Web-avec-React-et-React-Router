@@ -1,14 +1,14 @@
 import React from "react";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Footer from "../components/footer/Footer";
+import Header from "../components/header/Header";
 
 const About = () => {
 	return (
 		<div>
-			<header>
-				<Header />
-			</header>
 			<div className="content">
+				<header>
+					<Header />
+				</header>
 				<br />
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat velit
