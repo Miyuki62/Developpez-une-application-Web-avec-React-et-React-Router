@@ -1,10 +1,10 @@
 import React from "react";
-import Footer from "../components/footer/Footer";
-import Header from "../components/header/Header";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 const About = () => {
 	return (
-		<div>
+		<main>
 			<div className="content">
 				<header>
 					<Header />
@@ -29,7 +29,7 @@ const About = () => {
 			<footer>
 				<Footer />
 			</footer>
-		</div>
+		</main>
 	);
 };
 

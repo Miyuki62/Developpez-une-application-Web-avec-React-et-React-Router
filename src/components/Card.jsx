@@ -1,11 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Annonce from "../../assets/json/logements.json";
+import Annonce from "../assets/data/logements";
 
 const Card = () => {
 	return (
 		<div className="cardcontainer">
-			{Annonce.annonce.map((item, i) => (
+			{Annonce.map((item, i) => (
 				<div key={i}>
 					<div className="card">
 						<NavLink

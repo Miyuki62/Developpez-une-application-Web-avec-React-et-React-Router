@@ -1,12 +1,12 @@
 import React from "react";
-import BackgroundHomeimg from "../components/home/BackgroundHomeimg";
-import Card from "../components/home/Card";
-import Footer from "../components/footer/Footer";
-import Header from "../components/header/Header";
+import BackgroundHomeimg from "../components/BackgroundHomeimg";
+import Card from "../components/Card";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 const Home = () => {
 	return (
-		<div>
+		<main>
 			<div className="content">
 				<header>
 					<Header />
@@ -17,7 +17,7 @@ const Home = () => {
 			<footer>
 				<Footer />
 			</footer>
-		</div>
+		</main>
 	);
 };
 

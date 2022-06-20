@@ -1,5 +1,5 @@
 import React from "react";
-import backgroundhome from "../../assets/img/backgroundhome.png";
+import backgroundhome from "../assets/img/backgroundhome.png";
 
 const BackgroundHomeimg = () => {
 	return (
