@@ -26,10 +26,6 @@ function ImageGallery({ pictures, title }) {
 					<FaChevronLeft className="prev-icon" />
 				</button>
 			)}
-
-			<span className="index-img-Gallery">
-				{count + 1}/{pictures.length}
-			</span>
 		</div>
 	);
 }

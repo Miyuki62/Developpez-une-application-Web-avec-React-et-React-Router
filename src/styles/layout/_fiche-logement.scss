@@ -1,0 +1,11 @@
+.fiche-logement-container {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-evenly;
+	max-width: 1240px;
+	width: 100%;
+}
+.username-img {
+	display: flex;
+	flex-direction: row-reverse;
+}
