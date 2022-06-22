@@ -9,7 +9,7 @@ function Note({ note }) {
 			{etoile.map((index) => (
 				<FaStar
 					key={index}
-					className={`etoile ${index <= Note ? "color" : ""}`}
+					className={`etoile ${index <= note ? "pleine" : "vide"}`}
 				/>
 			))}
 		</div>
