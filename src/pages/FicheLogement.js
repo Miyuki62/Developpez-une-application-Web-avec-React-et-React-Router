@@ -39,15 +39,13 @@ const FicheLogement = () => {
 							/>
 							<h3>{currentLogement.host.name}</h3>
 						</div>
+						<Note note={currentLogement.rating} />
 					</div>
 					<div className="logementtexte">
 						<h2>{currentLogement.title}</h2>
 						<p>{currentLogement.location}</p>
+						<Tags tags={currentLogement.tags} />
 					</div>
-				</div>
-				<div className="noteAndtags">
-					<Tags tags={currentLogement.tags} />
-					<Note note={currentLogement.rating} />
 				</div>
 				<div className="Dropmenu-container">
 					<Dropmenu

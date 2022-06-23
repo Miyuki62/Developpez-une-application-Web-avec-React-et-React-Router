@@ -5,11 +5,15 @@
 	align-items: center;
 	max-width: 1240px;
 	width: 100%;
+	height: 200px;
 }
 //username and profil
 .user-profil {
 	color: $color-primary;
-	margin-top: -30px;
+	display: flex;
+	flex-direction: column;
+	height: 200px;
+	justify-content: space-around;
 }
 .username-img {
 	gap: 10px;
@@ -53,16 +57,10 @@
 		font-weight: 500;
 		font-size: 18px;
 		line-height: 142.6%;
+		margin-top: -20px;
 	}
 }
 //note et tag
-.noteAndtags {
-	display: flex;
-	justify-content: space-between;
-	max-width: 1240px;
-	width: 100%;
-	align-items: center;
-}
 .tags {
 	li {
 		font-family: "Montserrat";
@@ -77,4 +75,36 @@
 	justify-content: flex-end;
 	gap: 10px;
 	font-size: 24px;
+}
+
+@media screen and (max-width: 1000px) {
+	.fiche-logement-container {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		align-items: center;
+		max-width: 1240px;
+		width: 100%;
+	}
+	.user-profil {
+		display: flex;
+		flex-direction: row-reverse;
+		width: 100%;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.logementtexte {
+		align-self: start;
+		width: 100%;
+
+		h2 {
+			font-size: 25px;
+			line-height: 25.67px;
+		}
+
+		p {
+			font-size: 18px;
+			line-height: 19.96px;
+		}
+	}
 }

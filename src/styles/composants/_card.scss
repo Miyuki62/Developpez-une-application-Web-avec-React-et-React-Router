@@ -45,3 +45,13 @@
 a {
 	text-decoration: none;
 }
+@media screen and (max-width: 1000px) {
+	.card {
+		width: 335px;
+		height: 255px;
+		margin-top: 50px;
+	}
+	.cardtxt {
+		top: -32%;
+	}
+}

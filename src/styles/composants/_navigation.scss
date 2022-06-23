@@ -28,12 +28,12 @@
 
 			&::after {
 				content: "";
-				height: 4px;
+				height: 2px;
 				width: 0;
 				background: $color-primary;
 				position: absolute;
 				border-radius: 10px;
-				bottom: 0px;
+				bottom: 20px;
 				left: 50%;
 				transform: translateX(-50%);
 				-webkit-animation: anim 0.3s ease forwards;
@@ -41,12 +41,12 @@
 
 				@-webkit-keyframes anim {
 					to {
-						width: 100%;
+						width: 70%;
 					}
 				}
 				@keyframes anim {
 					to {
-						width: 100%;
+						width: 70%;
 					}
 				}
 			}
