@@ -17,8 +17,6 @@ const FicheLogement = () => {
 	if (!currentLogement) {
 		return <Error404componant />;
 	}
-	const descriptionTitle = "Description";
-	const equipmentTitle = "Équipements";
 
 	return (
 		<main>
@@ -49,10 +47,10 @@ const FicheLogement = () => {
 				</div>
 				<div className="Dropmenu-container">
 					<Dropmenu
-						title={descriptionTitle}
+						title={"Description"}
 						items={[currentLogement.description]}
 					/>
-					<Dropmenu title={equipmentTitle} items={currentLogement.equipments} />
+					<Dropmenu title={"Équipements"} items={currentLogement.equipments} />
 				</div>
 			</div>
 			<footer>
